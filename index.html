@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Animated text fill with svg text</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+        <style type="text/css" media="screen">
+        body {
+            background-image: url("images/furyroad.jpg");
+            background-size: cover;
+          }
+          
+        </style>
+  </head>
+
+  <body>
+
+    
+<svg viewBox="0 0 600 300">
+  <!-- Symbol-->
+  <symbol id="s-text">
+    <text text-anchor="middle" x="50%" y="50%" dy=".35em">COLT STEELE</text>
+  </symbol>
+  <!-- Duplicate symbols-->
+  <use xlink:href="#s-text" class="text"></use>
+  <use xlink:href="#s-text" class="text"></use>
+  <use xlink:href="#s-text" class="text"></use>
+  <use xlink:href="#s-text" class="text"></use>
+  <use xlink:href="#s-text" class="text"></use>
+</svg>
+    
+    
+    
+    
+    
+  </body>
+</html>
